@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lokesh Rathore | HRMS • People Analytics • HR Transformation</title>
+<meta name="description" content="Lokesh Rathore — HRMS, HR Analytics and HR Transformation professional specializing in Darwinbox, Workday HCM, reporting, automation, UAT and shared services.">
+<style>
+:root{--bg:#060b14;--panel:#0b1322;--panel2:#101b2d;--text:#f4f7fb;--muted:#9aaac0;--cyan:#55e6ff;--violet:#a78bfa;--green:#72f1b8;--line:#1e3049;--shadow:0 25px 80px rgba(0,0,0,.35)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at 15% 5%,#172a4a 0,transparent 28%),radial-gradient(circle at 90% 20%,#261a49 0,transparent 25%),var(--bg);color:var(--text);line-height:1.65}a{text-decoration:none;color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 26px}
+nav{position:sticky;top:0;z-index:99;background:rgba(6,11,20,.76);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.07)}.nav{height:72px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:900;letter-spacing:1px}.logo i{font-style:normal;color:var(--cyan)}.links{display:flex;gap:25px;color:var(--muted);font-size:13px}.links a:hover{color:white}
+.hero{min-height:760px;display:grid;grid-template-columns:1.35fr .65fr;align-items:center;gap:60px}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:2.5px;color:var(--cyan);font-weight:800}.hero h1{font-size:clamp(48px,7vw,88px);line-height:.94;letter-spacing:-4px;margin:16px 0 24px}.gradient{background:linear-gradient(90deg,var(--cyan),var(--violet));-webkit-background-clip:text;color:transparent}.hero p{font-size:19px;color:var(--muted);max-width:760px}.pills{display:flex;flex-wrap:wrap;gap:9px;margin-top:25px}.pill{border:1px solid var(--line);padding:7px 12px;border-radius:999px;color:#cdd8e8;font-size:12px;background:rgba(16,27,45,.55)}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:13px 19px;border-radius:12px;border:1px solid var(--line);font-weight:800;font-size:13px}.primary{background:white;color:#06101c}.btn:hover{border-color:var(--cyan)}
+.glass{background:linear-gradient(145deg,rgba(18,34,56,.88),rgba(8,17,30,.9));border:1px solid var(--line);border-radius:25px;box-shadow:var(--shadow)}.profile{padding:30px;position:relative;overflow:hidden}.profile:after{content:"";position:absolute;width:180px;height:180px;border-radius:50%;right:-80px;top:-70px;background:linear-gradient(135deg,var(--cyan),var(--violet));filter:blur(45px);opacity:.25}.avatar{height:105px;width:105px;border-radius:28px;display:grid;place-items:center;font-size:38px;font-weight:950;background:linear-gradient(135deg,#163452,#221c48);border:1px solid #355577;margin-bottom:25px}.profile h3{font-size:21px;margin:0}.profile .role{color:var(--cyan);font-weight:750;margin-top:4px}.mini{color:var(--muted);font-size:13px}.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px}.stat{border:1px solid var(--line);padding:15px;border-radius:15px}.stat b{font-size:20px;display:block}.stat span{font-size:11px;color:var(--muted)}
+section{padding:100px 0;border-top:1px solid rgba(255,255,255,.055)}.head{margin-bottom:36px}.head h2{font-size:42px;letter-spacing:-1.5px;line-height:1.1;margin:8px 0}.head p{color:var(--muted);max-width:780px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.feature{padding:23px;border-radius:18px;border:1px solid var(--line);background:rgba(11,19,34,.72);transition:.25s}.feature:hover{transform:translateY(-4px);border-color:#365476}.feature .icon{font-size:22px}.feature h3{font-size:18px;margin:8px 0}.feature p{color:var(--muted);font-size:13px;margin:0}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:13px}.tag{font-size:11px;padding:5px 9px;border:1px solid #263a56;border-radius:8px;color:#b9c9dc}
+.timeline{border-left:1px solid #30445e;margin-left:10px}.job{padding:0 0 48px 32px;position:relative}.job:last-child{padding-bottom:0}.job:before{content:"";position:absolute;left:-6px;top:8px;width:11px;height:11px;border-radius:50%;background:var(--cyan);box-shadow:0 0 0 5px var(--bg)}.job h3{font-size:21px;margin:0}.job .company{color:var(--cyan);font-weight:800}.date{font-size:12px;color:var(--muted);margin:3px 0 12px}.job ul{margin:0;padding-left:18px;color:#cbd6e5;font-size:13px}.job li{margin:7px 0}
+.metricbar{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:30px 0}.metric{padding:20px;border:1px solid var(--line);border-radius:16px;background:rgba(16,27,45,.6)}.metric strong{font-size:25px}.metric p{font-size:11px;color:var(--muted);margin:0}
+.project{min-height:220px;padding:25px}.number{color:var(--cyan);font-size:11px;font-weight:900;letter-spacing:1.5px}.project h3{font-size:21px;margin:8px 0}.project p{color:var(--muted);font-size:13px}.impact{margin-top:14px;color:#dce8f8;font-size:12px;border-top:1px solid var(--line);padding-top:13px}
+.cert{display:grid;grid-template-columns:1fr 1fr;gap:13px}.certitem{padding:20px;border:1px solid var(--line);border-radius:16px;background:rgba(11,19,34,.72)}.certitem b{display:block}.certitem span{font-size:12px;color:var(--muted)}
+.contact{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.contact a{padding:20px;border:1px solid var(--line);border-radius:16px}.contact a:hover{border-color:var(--cyan)}.contact b{display:block;margin-bottom:4px}.contact span{color:var(--muted);font-size:12px}
+footer{padding:35px 0;text-align:center;color:var(--muted);font-size:12px}
+@media(max-width:850px){.links{display:none}.hero{grid-template-columns:1fr;padding:70px 0}.grid3,.grid2,.contact,.cert{grid-template-columns:1fr}.metricbar{grid-template-columns:1fr 1fr}.hero h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><div class="logo">LOKESH <i>RATHORE</i></div><div class="links"><a href="#profile">Profile</a><a href="#skills">Expertise</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#credentials">Credentials</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="wrap hero" id="profile">
+<div>
+<div class="eyebrow">HRMS • People Analytics • Digital HR Transformation</div>
+<h1>Building smarter<br><span class="gradient">HR operations.</span></h1>
+<p>HR technology professional with 5+ years of HCM experience across <b>Darwinbox, Workday HCM, HR shared services, HR analytics, UAT, reporting, process automation and digital transformation.</b></p>
+<div class="pills"><span class="pill">Darwinbox Implementation</span><span class="pill">Workday HCM</span><span class="pill">HRIS / HRMS</span><span class="pill">People Analytics</span><span class="pill">Power BI</span><span class="pill">EIB</span><span class="pill">UAT</span><span class="pill">Automation</span></div>
+<div class="actions"><a class="btn primary" href="#experience">View career →</a><a class="btn" href="mailto:linkedinrathore@gmail.com">Let's connect</a><a class="btn" href="https://linkedin.com/in/lokesh-rathore-a47554234" target="_blank">LinkedIn ↗</a></div>
+</div>
+<div class="glass profile">
+<div class="avatar">LR</div><h3>Lokesh Rathore</h3><div class="role">Assistant Manager – HR Shared Services, Operations & HR Transformation</div><p class="mini">Bhiwadi – Gurgaon, India</p>
+<div class="stats"><div class="stat"><b>5+</b><span>Years HCM experience</span></div><div class="stat"><b>2</b><span>Core HRMS platforms</span></div><div class="stat"><b>HRMS</b><span>Implementation & UAT</span></div><div class="stat"><b>BI</b><span>Reporting & analytics</span></div></div>
+</div>
+</header>
+
+<section id="skills"><div class="wrap"><div class="head"><div class="eyebrow">01 / HR technology stack</div><h2>Recruiter-ready capabilities.</h2><p>Positioned for HRIS, HRMS, HR Analytics, HR Shared Services, HR Operations and HR Transformation roles.</p></div>
+<div class="grid3">
+<div class="feature"><div class="icon">⚙️</div><h3>HRMS Implementation</h3><p>End-to-end HRMS rollout, module deployment, configuration coordination, pilot testing, UAT, issue tracking, deployment and hypercare.</p><div class="tags"><span class="tag">Darwinbox</span><span class="tag">HRIS</span><span class="tag">UAT</span><span class="tag">Hypercare</span></div></div>
+<div class="feature"><div class="icon">☁️</div><h3>Workday HCM</h3><p>Employee data, business processes, security groups, job changes, custom and matrix reporting, EIB bulk data and end-user support.</p><div class="tags"><span class="tag">Core HCM</span><span class="tag">EIB</span><span class="tag">Reporting</span><span class="tag">Security</span></div></div>
+<div class="feature"><div class="icon">📊</div><h3>People Analytics</h3><p>Headcount, attrition, absence, compensation and workforce dashboards supporting data-driven leadership decisions.</p><div class="tags"><span class="tag">Power BI</span><span class="tag">Excel</span><span class="tag">Attrition</span><span class="tag">Dashboards</span></div></div>
+<div class="feature"><div class="icon">🔄</div><h3>Process Automation</h3><p>Identify repetitive HR activities, document workflows, configure low-code automation and monitor reliability and TAT.</p><div class="tags"><span class="tag">Workflow</span><span class="tag">Low-code</span><span class="tag">Digitisation</span></div></div>
+<div class="feature"><div class="icon">🧪</div><h3>UAT & Data Quality</h3><p>Test HRMS functionality, validate data, flag defects, track resolutions, perform system hygiene checks and support releases.</p><div class="tags"><span class="tag">Test Cases</span><span class="tag">Defects</span><span class="tag">Validation</span></div></div>
+<div class="feature"><div class="icon">🤝</div><h3>HR Shared Services</h3><p>Employee lifecycle operations, HR support, vendor coordination, SLA monitoring, compliance, documentation and service improvement.</p><div class="tags"><span class="tag">Employee Lifecycle</span><span class="tag">SLA</span><span class="tag">Ops</span></div></div>
+</div></div></section>
+
+<section><div class="wrap"><div class="head"><div class="eyebrow">02 / Career snapshot</div><h2>Experience with measurable scope.</h2></div>
+<div class="metricbar"><div class="metric"><strong>5+</strong><p>Years of HCM / HR experience</p></div><div class="metric"><strong>HRMS</strong><p>Implementation & transformation</p></div><div class="metric"><strong>Power BI</strong><p>Workforce analytics</p></div><div class="metric"><strong>EIB</strong><p>Bulk data & integrations support</p></div></div></div></section>
+
+<section id="experience"><div class="wrap"><div class="head"><div class="eyebrow">03 / Professional journey</div><h2>Career timeline.</h2></div><div class="timeline">
+<div class="job"><h3>Assistant Manager – HR Shared Services & Operations</h3><div class="company">Agrawal Metal Works</div><div class="date">Jan 2026 – Present · Bhiwadi – Gurgaon</div><ul>
+<li>Act as Darwinbox SPOC for end-to-end HRMS implementation and HR digital transformation, partnering with PwC advisory.</li>
+<li>Manage rollout of Performance, Leave, Recruitment, Learning and other HRMS capabilities across the organisation.</li>
+<li>Coordinate with product vendors on configuration, pilot testing and deployment; execute UAT, defect tracking and resolution follow-up.</li>
+<li>Deliver HRMS training and ongoing support to HR teams and employees to improve adoption and system utilisation.</li>
+<li>Partner with IT and HR teams for upgrades, module integration and evolving business requirements.</li>
+<li>Analyse turnover, engagement and performance data; design interactive reports and dashboards for leadership.</li>
+<li>Apply predictive modelling concepts to forecast attrition and hiring trends for workforce planning.</li>
+<li>Lead digitisation of repetitive HR processes using low-code tools; document workflows and automation configurations.</li>
+<li>Monitor automated processes, troubleshoot issues, improve reliability/TAT, maintain workflow repositories and communicate enhancements.</li>
+<li>Conduct HR platform audits and hygiene checks, monitor vendor performance and maintain SLAs.</li>
+</ul></div>
+<div class="job"><h3>HR Generalist – Executive I</h3><div class="company">Junglee Games</div><div class="date">Feb 2023 – Sep 2025 · Gurugram</div><ul>
+<li>Managed high-volume employee transactions in Workday across personal, job, compensation, leave, education and history data.</li>
+<li>Supported Workday business process configuration, security groups, job changes, custom reports and matrix reports.</li>
+<li>Supported EIB inbound/outbound loads and data validation; participated in UAT and integration testing cycles.</li>
+<li>Provided Tier-1 Workday support and maintained employee data integrity, accuracy and compliance.</li>
+<li>Managed onboarding-to-exit lifecycle including BGV, induction, probation, PIP, grievances and employee support.</li>
+<li>Created leadership decks and workforce analytics dashboards covering headcount, attrition, absence and HR metrics.</li>
+<li>Implemented and managed Peakon and 15Five; analysed feedback and supported employee-experience action plans.</li>
+</ul></div>
+<div class="job"><h3>Human Resources Executive</h3><div class="company">AIPL</div><div class="date">May 2022 – Feb 2023 · Gurugram</div><ul>
+<li>Managed recruitment and onboarding while maintaining employee data in Workday HCM and generating workforce reports.</li>
+<li>Handled employee relations, grievances, PIP, probation and first-level HR queries.</li>
+<li>Supported OKRs, KPIs, appraisals, bonuses, succession planning, L&D and compliance training.</li>
+<li>Built leadership decks, analytics dashboards and HR insights; supported engagement and R&R programmes.</li>
+</ul></div>
+<div class="job"><h3>HR Trainee</h3><div class="company">Anu Industries</div><div class="date">May 2020 – May 2021 · Gurugram</div><ul><li>Supported sourcing, screening, interviews, offers, onboarding, HRIS/ATS data management and recruitment reporting.</li></ul></div>
+</div></div></section>
+
+<section id="projects"><div class="wrap"><div class="head"><div class="eyebrow">04 / Selected projects</div><h2>Work that tells the story.</h2><p>Projects that demonstrate HR technology, analytics and transformation capability.</p></div><div class="grid2">
+<div class="glass project"><div class="number">01 — PEOPLE ANALYTICS</div><h3>HR One View</h3><p>Designed and deployed a Power BI dashboard consolidating workforce data into actionable leadership insights.</p><div class="impact">Focus: workforce visibility • dashboards • decision support</div></div>
+<div class="glass project"><div class="number">02 — RETENTION ANALYTICS</div><h3>Attrition & Retention Analysis</h3><p>Conducted five-year department- and leader-wise attrition analysis to identify retention gaps and support targeted strategies.</p><div class="impact">Focus: attrition trends • segmentation • retention insights</div></div>
+<div class="glass project"><div class="number">03 — COMPENSATION ANALYTICS</div><h3>Compensation Benchmarking & Pay Equity</h3><p>Executed internal versus market compensation analysis to support pay fairness and alignment with industry standards.</p><div class="impact">Focus: benchmarking • pay equity • compensation insights</div></div>
+<div class="glass project"><div class="number">04 — WORKDAY</div><h3>Workday Reporting & Configuration</h3><p>Created matrix reports for headcount by department, location and job profile; configured sandbox business processes for hire, job change and termination.</p><div class="impact">Focus: Core HCM • reporting • business processes • EIB testing</div></div>
+<div class="glass project"><div class="number">05 — HRMS TRANSFORMATION</div><h3>Darwinbox Implementation & Adoption</h3><p>HRMS transformation work spanning module rollout, UAT, vendor coordination, training, support, issue resolution and adoption.</p><div class="impact">Focus: implementation • UAT • adoption • hypercare</div></div>
+<div class="glass project"><div class="number">06 — HR AUTOMATION</div><h3>HR Process Digitisation</h3><p>Identified repetitive HR workflows, documented processes and supported low-code automation configurations with ongoing monitoring.</p><div class="impact">Focus: automation • TAT • reliability • continuous improvement</div></div>
+</div></div></section>
+
+<section id="credentials"><div class="wrap"><div class="head"><div class="eyebrow">05 / Credentials</div><h2>Certifications & education.</h2></div><div class="cert">
+<div class="certitem"><b>Darwinbox Certified</b><span>HRMS platform and implementation capability</span></div>
+<div class="certitem"><b>Workday HCM Techno-Functional</b><span>Croma Campus · September 2025</span></div>
+<div class="certitem"><b>Power BI Certification</b><span>Data visualisation and HR analytics</span></div>
+<div class="certitem"><b>Advanced Excel Certification</b><span>Advanced reporting and analysis</span></div>
+<div class="certitem"><b>PGDM — IMT Ghaziabad</b><span>Pursuing · Management education</span></div>
+<div class="certitem"><b>B.Tech — Mechanical Engineering</b><span>Amity University, Gurgaon · 2018</span></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap"><div class="head"><div class="eyebrow">06 / Recruiter contact</div><h2>Let’s build the next HR transformation.</h2><p>Open to opportunities across HRMS, HRIS, People Analytics, HR Shared Services, HR Operations and HR Digital Transformation.</p></div>
+<div class="contact"><a href="mailto:linkedinrathore@gmail.com"><b>Email</b><span>linkedinrathore@gmail.com</span></a><a href="tel:+919871259553"><b>Phone</b><span>+91 9871259553</span></a><a href="https://linkedin.com/in/lokesh-rathore-a47554234" target="_blank"><b>LinkedIn</b><span>linkedin.com/in/lokesh-rathore-a47554234</span></a></div></div></section>
+<footer>© 2026 Lokesh Rathore · HRMS · People Analytics · HR Transformation</footer>
+</body></html>
